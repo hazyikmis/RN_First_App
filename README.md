@@ -51,12 +51,37 @@ Expo Client App (Native Device Simulator) can be downloaded from AppStore of Pla
 
 # Core Components of RN
 
+(https://reactnative.dev/docs/components-and-apis)
+
 - Built-in RN
-  - View
-  - Text
-  - Button / Touchable
-  - TextInput
-  - Image
+  - Basic Components
+    - View
+    - Text
+    - Image
+    - TextInput
+    - ScrollView
+    - StyleSheet
+  - User Interface
+    - Button
+    - Switch
+  - List Views
+    - FlatList
+    - SectionList
+  - iOS Components & APIs
+    - ActionSheetIOS
+  - Android Components & APIs
+    - BackHandler
+    - DrawerLayoutAndroid
+    - PermissionsAndroid
+    - ToastAndroid
+  - Others
+    - ActivityIndicator
+    - Alert
+    - Animated
+    - Dimensions
+    - Linking
+    - Modal
+    - ...
 - Your UIs / Custom Components (composed of built-in components of other your UIs)
 
 # Styling in RN
