@@ -7,9 +7,12 @@ Just to remind that REACT is a JS library for building UIs, typically used for W
 - JS code runs as is
 - Native Platform APIs (accessing camera, mic, contact list, sms etc) exposed to JS
 - Connects JS and NAtive Platform code
-- <div> : android.view : UIView : <View>
-- <input> : EditText : UITextField : <TextInput>
-- In order to create RN Apps, you have 2 options:
+- < div > : android.view : UIView : < View >
+- < input > : EditText : UITextField : < TextInput >
+- NO "Write JS code and run it everywhere"
+- NO or VERY LITTLE cross-platform styling of components
+
+* In order to create RN Apps, you have 2 options:
   - Expo CLI (Managed App Development, like a wrapper around your app, complexity removed, lots of utility features. Downside is you are limited to Expo ecosystem. You can always switch to React Native CLI-means eject)
   - React Native CLI (Bare-bone development, Full flexibility, fine grain configuration on your app)
 
