@@ -31,3 +31,36 @@ Expo Client App (Native Device Simulator) can be downloaded from AppStore of Pla
 - cd myNewProject
 - expo start
   - /_ or run "npm start", check the package.json _/
+
+# Android Studio Emulator Installation
+
+(https://docs.expo.io/workflow/android-studio-emulator/)
+
+- Right bottom menu: Configure -> SDK Manager
+- Select related Android versions ("SDK Platforms")
+- Select related Tools ("SDK Tools" from top)
+  - Android SDK Build-Tools XX
+  - Android Emulator
+  - Android SDK Platform-Tools
+  - Android SDK Tools
+  - Intel x86 Emulator Accelerator
+  - Click Apply
+- Right bottom menu: Configure -> AVD Manager
+
+  - Allows you to create virtual devices (phone, tablet, tv etc ...). Buttom left corner: Create Virtual Device
+
+# Core Components of RN
+
+- Built-in RN
+  - View
+  - Text
+  - Button / Touchable
+  - TextInput
+  - Image
+- Your UIs / Custom Components (composed of built-in components of other your UIs)
+
+# Styling in RN
+
+- No HTML
+- No CSS
+- Inline styles or StyleSheet Objects (Written in JS based on CSS syntax)
