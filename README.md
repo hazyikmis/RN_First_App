@@ -25,7 +25,7 @@ Expo Client App (Native Device Simulator) can be downloaded from AppStore of Pla
 (https://expo.io/learn)
 
 - Install NodeJS
-- npm install expo-cli --global
+- npm install expo-cli --global (or npm install -g expo-cli)
 - expo init myNewProject
   - /_ choose "blank - minimal dependencies to run and an empty root comp..." _/
 - cd myNewProject
